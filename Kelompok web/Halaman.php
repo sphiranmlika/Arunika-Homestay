@@ -276,7 +276,7 @@
                     <img src="kamar7.jpg" class="card-img-top" alt="The Keats">
                     <div class="card-body">
                         <h4 class="card-title">The Keats</h4>
-                        <p class="card-text">Private Memory Care Suite</p>
+                        <p class="card-text">Private Memori Care Suite</p>
                         <div class="facilities">
                             <div class="facility-item">Single bed</div>
                             <div class="facility-item">AC</div>
