@@ -60,13 +60,13 @@ if (isset($_POST['login'])) {
             border-radius: 5px;
             box-sizing: border-box;
             margin-left: 10px;
-            text-align: center; /* Center the placeholder text */
+            text-align: center;
         }
 
         .btn-primary {
             width: 100%;
             height: 40px;
-            background-color: #8B4513; /* Changed to brown */
+            background-color: #8B4513;
             color: #fff;
             border: none;
             border-radius: 5px;

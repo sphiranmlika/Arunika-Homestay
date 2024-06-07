@@ -300,11 +300,10 @@
                             <div class="facility-item">TV</div>
                         </div>
                     </div>
-
-            <!-- Repeat for other cards as necessary -->
+                </div>
+             </div>
         </div>
-    </div>
-
+    </div>    
 </body>
 </html>
 

@@ -45,12 +45,12 @@
             display: flex;
             justify-content: space-between;
             margin-bottom: 20px;
-            gap: 20px; /* Add spacing between the image links */
+            gap: 20px;
         }
 
         .image-link {
             display: block;
-            width: calc(50% - 10px); /* Adjust width to account for the gap */
+            width: calc(50% - 10px);
             text-align: center;
             border-radius: 10px;
             overflow: hidden;

@@ -6,7 +6,7 @@ if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $phone = $_POST['phone'];
     $email = $_POST['email'];
-    $password = md5($_POST['password']); // Menggunakan MD5 untuk mengenkripsi password
+    $password = md5($_POST['password']);
     $jenis_kelamin = $_POST['jenis_kelamin'];
     $tanggal_lahir = $_POST['tanggal_lahir'];
     $pekerjaan = $_POST['pekerjaan'];
@@ -42,8 +42,8 @@ if (isset($_POST['submit'])) {
         }
 
         .container {
-            width: 400px; /* Increased width */
-            padding: 30px; /* Increased padding */
+            width: 400px;
+            padding: 30px;
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 10px;
             box-shadow: 0px <0px 10px rgba(0, 0, 0, 0.1);
@@ -69,18 +69,16 @@ if (isset($_POST['submit'])) {
         .btn-primary {
             width: 100%;
             height: 40px;
-            background-color: #543310; /* Changed to brown */
+            background-color: #543310;
             color: #fff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            /* Adding gradient background */
             transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
         }
 
         .btn-primary:hover {
-            background-color: #AF8F6F; /* Lighter shade for hover effect */
-            /* Adding slight scale effect on hover */
+            background-color: #AF8F6F;
             transform: scale(1.05);
         }
 
@@ -105,7 +103,7 @@ if (isset($_POST['submit'])) {
 
         .radio-group {
             display: flex;
-            gap: 20px; /* Optional: space between radio buttons */
+            gap: 20px;
             align-items: center;
         }
 
@@ -115,7 +113,7 @@ if (isset($_POST['submit'])) {
         }
 
         .radio-group label {
-            margin-left: 5px; /* Add margin to the left of the label for spacing */
+            margin-left: 5px;
         }
 
         .form-row {
@@ -126,7 +124,7 @@ if (isset($_POST['submit'])) {
 
         .form-row .form-group {
             flex: 1;
-            margin-right: 10px; /* Add some space between the two fields */
+            margin-right: 10px;
         }
 
         .form-row .form-group:last-child {
